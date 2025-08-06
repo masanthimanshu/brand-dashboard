@@ -37,9 +37,9 @@ export default function HomeScreen() {
         <Box width={300} p={2}>
           <img src="/logo.png" alt="Logo" width="100%" />
           <br />
-          <br />
           <Box
             sx={{
+              my: 1,
               borderRadius: 10,
               cursor: "pointer",
               fontWeight: "bold",
@@ -47,11 +47,11 @@ export default function HomeScreen() {
               padding: "0.5rem 1.5rem",
             }}
           >
-            <i class="fa-regular fa-house"></i> &nbsp; Home
+            <i class="fa-regular fa-house"></i> &nbsp; &nbsp; Home
           </Box>
-          <br />
           <Box
             sx={{
+              my: 1,
               borderRadius: 10,
               cursor: "pointer",
               fontWeight: "bold",
@@ -59,11 +59,11 @@ export default function HomeScreen() {
               padding: "0.5rem 1.5rem",
             }}
           >
-            <i class="fa-regular fa-house"></i> &nbsp; Home
+            <i class="fa-regular fa-house"></i> &nbsp; &nbsp; Home
           </Box>
-          <br />
           <Box
             sx={{
+              my: 1,
               borderRadius: 10,
               cursor: "pointer",
               fontWeight: "bold",
@@ -71,11 +71,11 @@ export default function HomeScreen() {
               padding: "0.5rem 1.5rem",
             }}
           >
-            <i class="fa-regular fa-house"></i> &nbsp; Home
+            <i class="fa-regular fa-house"></i> &nbsp; &nbsp; Home
           </Box>
-          <br />
           <Box
             sx={{
+              my: 1,
               borderRadius: 10,
               cursor: "pointer",
               fontWeight: "bold",
@@ -83,7 +83,7 @@ export default function HomeScreen() {
               padding: "0.5rem 1.5rem",
             }}
           >
-            <i class="fa-regular fa-house"></i> &nbsp; Home
+            <i class="fa-regular fa-house"></i> &nbsp; &nbsp; Home
           </Box>
         </Box>
       </Drawer>
